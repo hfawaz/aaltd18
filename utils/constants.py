@@ -36,7 +36,7 @@ UNIVARIATE_DATASET_NAMES = ['50words','Adiac','ArrowHead','Beef','BeetleFly',
                             'uWaveGestureLibrary_Z','wafer','Wine',
                             'WordsSynonyms','Worms','WormsTwoClass','yoga']
 
-UNIVARIATE_DATASET_NAMES = ['BirdChicken','DiatomSizeReduction']
+# UNIVARIATE_DATASET_NAMES = ['BirdChicken','DiatomSizeReduction']
 
 UNIVARIATE_ARCHIVE_NAMES = ['UCR_TS_Archive_2015']
 
