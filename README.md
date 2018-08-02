@@ -21,5 +21,10 @@ All python packages needed are listed in utils/pip-requirements.txt file and can
 ## Results
 The main contribution of a data augmentation technique is to improve the performance (accuracy) of a deep learning model especially for time series datasets with small training sets such as the DiatomSizeReduction (the smallest in the UCR archive) where we managed to increase the model's accuracy from 30% (without data augmentation) to 96% with data augmentation for a residual network architecture. 
 
+Meat             |  DiatomSizeReduction
+:-------------------------:|:-------------------------:
 ![plot-meat-dataset](https://github.com/hfawaz/aaltd18/blob/master/png/plot-meat.png)
-![plot-diatomsizereduction-dataset](https://github.com/hfawaz/aaltd18/blob/master/png/plot-generalization.png)
+  |  ![plot-diatomsizereduction-dataset](https://github.com/hfawaz/aaltd18/blob/master/png/plot-generalization.png)
+
+
+
