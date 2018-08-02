@@ -23,8 +23,7 @@ The main contribution of a data augmentation technique is to improve the perform
 
 Meat             |  DiatomSizeReduction
 :-------------------------:|:-------------------------:
-![plot-meat-dataset](https://github.com/hfawaz/aaltd18/blob/master/png/plot-meat.png)
-  |  ![plot-diatomsizereduction-dataset](https://github.com/hfawaz/aaltd18/blob/master/png/plot-generalization.png)
+![plot-meat-dataset](https://github.com/hfawaz/aaltd18/blob/master/png/plot-meat.png)  |  ![plot-diatomsizereduction-dataset](https://github.com/hfawaz/aaltd18/blob/master/png/plot-generalization.png)
 
 
 
