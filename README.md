@@ -1,6 +1,7 @@
 # Data augmentation using synthetic data for time series classification with deep residual networks
 This is the companion repository for our paper titled "Data augmentation using synthetic data for time series classification with deep residual networks".
 This paper has been accepted for an oral presentation at the [Workshop on Advanced Analytics and Learning on Temporal Data (AALTD) 2018](https://project.inria.fr/aaldt18/) in the [European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML/PKDD) 2018](http://www.ecmlpkdd2018.org/).
+
 ![architecture resnet](https://github.com/hfawaz/aaltd18/blob/master/png/resnet-archi.png)
 
 ## Data
