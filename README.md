@@ -1,6 +1,7 @@
 # Data augmentation using synthetic data for time series classification with deep residual networks
 This is the companion repository for our paper titled "Data augmentation using synthetic data for time series classification with deep residual networks".
 This paper has been accepted for an oral presentation at the [Workshop on Advanced Analytics and Learning on Temporal Data (AALTD) 2018](https://project.inria.fr/aaldt18/) in the [European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML/PKDD) 2018](http://www.ecmlpkdd2018.org/).
+![architecture resnet](https://github.com/hfawaz/aaltd18/blob/master/png/resnet-archi.png)
 
 ## Data
 The data used in this project comes from the [UCR archive](http://www.cs.ucr.edu/~eamonn/time_series_data/), which contains the 85 univariate time series datasets we used in our experiements. 
@@ -18,8 +19,6 @@ All python packages needed are listed in utils/pip-requirements.txt file and can
 
 ## Results
 The main contribution of a data augmentation technique is to improve the performance (accuracy) of a deep learning model especially for time series datasets with small training sets such as the DiatomSizeReduction (the smallest in the UCR archive) where we managed to increase the model's accuracy from 30% (without data augmentation) to 96% with data augmentation for a residual network architecture. 
-
-![architecture resnet](https://github.com/hfawaz/aaltd18/blob/master/png/resnet-archi.png)
 
 ![plot-meat-dataset](https://github.com/hfawaz/aaltd18/blob/master/png/plot-meat.png)
 ![plot-diatomsizereduction-dataset](https://github.com/hfawaz/aaltd18/blob/master/png/plot-generalization.png)
