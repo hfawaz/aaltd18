@@ -8,24 +8,24 @@ This paper has been accepted for an oral presentation at the [Workshop on Advanc
 The data used in this project comes from the [UCR archive](http://www.cs.ucr.edu/~eamonn/time_series_data/), which contains the 85 univariate time series datasets we used in our experiements. 
 
 ## Code
-The code is divided as follows: the distance folder contains the DTW distance in Cython instead of pure python in order to reduce the running time. 
-The dba.py file contains the DBA algorithm. 
-The utils/ folder contains the necessary functions to read the datasets and visualize the plots. 
-The knn.py file contains the K nearest neighbor algorithm which is mainly used when computing the weights for the data augmentation technique. 
-The resnet.py file contians the keras and tesnorflow code to define the architecture and train the deep learning model. 
-The augment.py file contains the method that generates the random weights (Average Selected) with a function that does the actual augmentation for a given training set of time series.  
+The code is divided as follows: the [distance](https://github.com/hfawaz/aaltd18/tree/master/distances/dtw) folder contains the DTW distance in Cython instead of pure python in order to reduce the running time.  
+The [dba.py](https://github.com/hfawaz/aaltd18/blob/master/dba.py) file contains the DBA algorithm.  
+The [utils](https://github.com/hfawaz/aaltd18/tree/master/utils) folder contains the necessary functions to read the datasets and visualize the plots.  
+The [knn.py](https://github.com/hfawaz/aaltd18/tree/master/knn.py) file contains the K nearest neighbor algorithm which is mainly used when computing the weights for the data augmentation technique.  
+The [resnet.py](https://github.com/hfawaz/aaltd18/tree/master/resnet.py) file contians the keras and tesnorflow code to define the architecture and train the deep learning model.  
+The [augment.py](https://github.com/hfawaz/aaltd18/tree/master/augment.py) file contains the method that generates the random weights (Average Selected) with a function that does the actual augmentation for a given training set of time series.  
 
 ## Prerequisites
 All python packages needed are listed in utils/pip-requirements.txt file and can be installed simply using the pip command. 
 
-[Cython](http://cython.org/)
-[numpy](http://www.numpy.org/)
-[pandas](https://pandas.pydata.org/)
-[sklearn](http://scikit-learn.org/stable/)
-[scipy](https://www.scipy.org/)
-[matplotlib](https://matplotlib.org/)
-[tensorflow-gpu](https://www.tensorflow.org/)
-[keras](https://keras.io/)
+[Cython](http://cython.org/)  
+[numpy](http://www.numpy.org/)  
+[pandas](https://pandas.pydata.org/)  
+[sklearn](http://scikit-learn.org/stable/)  
+[scipy](https://www.scipy.org/)  
+[matplotlib](https://matplotlib.org/)  
+[tensorflow-gpu](https://www.tensorflow.org/)  
+[keras](https://keras.io/)  
 
 ## Results
 The main contribution of a data augmentation technique is to improve the performance (accuracy) of a deep learning model especially for time series datasets with small training sets such as the DiatomSizeReduction (the smallest in the UCR archive) where we managed to increase the model's accuracy from 30% (without data augmentation) to 96% with data augmentation for a residual network architecture. 
