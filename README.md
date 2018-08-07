@@ -39,8 +39,9 @@ Meat             |  DiatomSizeReduction
 If you re-use this work, please cite:
 
 @inproceedings{ismailFawaz2018data,  
-  title={Data augmentation using synthetic data for time series classification with deep residual networks},  
-  author={Ismail Fawaz, Hassan and Forestier, Germain and Weber, Jonathan and Idoumghar, Lhassane and Muller, Pierre-Alain},  
-  booktitle={International Workshop on Advanced Analytics and Learning on Temporal Data},  
-  year={2018},  
+&nbsp;&nbsp;&nbsp;&nbsp;title={Data augmentation using synthetic data for time series classification with deep residual networks},  
+&nbsp;&nbsp;&nbsp;&nbsp;author={Ismail Fawaz, Hassan and Forestier, Germain and  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Weber, Jonathan and Idoumghar, Lhassane and Muller, Pierre-Alain},  
+&nbsp;&nbsp;&nbsp;&nbsp;booktitle={International Workshop on Advanced Analytics and Learning on Temporal Data},  
+&nbsp;&nbsp;&nbsp;&nbsp;year={2018},  
 }
