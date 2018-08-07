@@ -34,5 +34,13 @@ Meat             |  DiatomSizeReduction
 :-------------------------:|:-------------------------:
 ![plot-meat-dataset](https://github.com/hfawaz/aaltd18/blob/master/png/plot-meat.png)  |  ![plot-diatomsizereduction-dataset](https://github.com/hfawaz/aaltd18/blob/master/png/plot-generalization.png)
 
+## Cite
 
+If you re-use this work, please cite:
 
+@inproceedings{ismailFawaz2018data,
+  title={Data augmentation using synthetic data for time series classification with deep residual networks},
+  author={Ismail Fawaz, Hassan and Forestier, Germain and Weber, Jonathan and Idoumghar, Lhassane and Muller, Pierre-Alain},
+  booktitle={International Workshop on Advanced Analytics and Learning on Temporal Data},
+  year={2018},
+}
