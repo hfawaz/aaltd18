@@ -44,7 +44,7 @@ def dynamic_time_warping(np.ndarray[double, ndim=2] x, np.ndarray[double, ndim=2
     D[0,1:] = DBL_MAX
     D[1:,0] = DBL_MAX 
     
-    D[1:,1:] = np.square(X[:,np.newaxis]-Y).sum(axis=2).astype(np.float64)
+    D[1:,1:] = np.square(X[:,np.newaxis]-Y).sum(axis=2).astype(np.float64) # inspired by https://stackoverflow.com/a/27948463/9234713
     
     for i in range(1,r):
         jstart = max_c_int(1 , i-w)
