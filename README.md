@@ -19,14 +19,14 @@ The code is divided as follows:
 ## Prerequisites
 All python packages needed are listed in utils/pip-requirements.txt file and can be installed simply using the pip command. 
 
-[Cython](http://cython.org/)  
-[numpy](http://www.numpy.org/)  
-[pandas](https://pandas.pydata.org/)  
-[sklearn](http://scikit-learn.org/stable/)  
-[scipy](https://www.scipy.org/)  
-[matplotlib](https://matplotlib.org/)  
-[tensorflow-gpu](https://www.tensorflow.org/)  
-[keras](https://keras.io/)  
+* [Cython](http://cython.org/)  
+* [numpy](http://www.numpy.org/)  
+* [pandas](https://pandas.pydata.org/)  
+* [sklearn](http://scikit-learn.org/stable/)  
+* [scipy](https://www.scipy.org/)  
+* [matplotlib](https://matplotlib.org/)  
+* [tensorflow-gpu](https://www.tensorflow.org/)  
+* [keras](https://keras.io/)  
 
 ## Results
 The main contribution of a data augmentation technique is to improve the performance (accuracy) of a deep learning model especially for time series datasets with small training sets such as the DiatomSizeReduction (the smallest in the UCR archive) where we managed to increase the model's accuracy from 30% (without data augmentation) to 96% with data augmentation for a residual network architecture. 
