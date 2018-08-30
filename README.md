@@ -35,7 +35,7 @@ Meat             |  DiatomSizeReduction
 :-------------------------:|:-------------------------:
 ![plot-meat-dataset](https://github.com/hfawaz/aaltd18/blob/master/png/plot-meat.png)  |  ![plot-diatomsizereduction-dataset](https://github.com/hfawaz/aaltd18/blob/master/png/plot-generalization.png)
 
-## Cite
+## Reference
 
 If you re-use this work, please cite:
 
