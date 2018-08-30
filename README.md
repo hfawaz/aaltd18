@@ -8,12 +8,13 @@ This paper has been accepted for an oral presentation at the [Workshop on Advanc
 The data used in this project comes from the [UCR archive](http://www.cs.ucr.edu/~eamonn/time_series_data/), which contains the 85 univariate time series datasets we used in our experiements. 
 
 ## Code
-The code is divided as follows: the [distance](https://github.com/hfawaz/aaltd18/tree/master/distances/dtw) folder contains the DTW distance in Cython instead of pure python in order to reduce the running time.  
-The [dba.py](https://github.com/hfawaz/aaltd18/blob/master/dba.py) file contains the DBA algorithm.  
-The [utils](https://github.com/hfawaz/aaltd18/tree/master/utils) folder contains the necessary functions to read the datasets and visualize the plots.  
-The [knn.py](https://github.com/hfawaz/aaltd18/tree/master/knn.py) file contains the K nearest neighbor algorithm which is mainly used when computing the weights for the data augmentation technique.  
-The [resnet.py](https://github.com/hfawaz/aaltd18/tree/master/resnet.py) file contians the keras and tesnorflow code to define the architecture and train the deep learning model.  
-The [augment.py](https://github.com/hfawaz/aaltd18/tree/master/augment.py) file contains the method that generates the random weights (Average Selected) with a function that does the actual augmentation for a given training set of time series.  
+The code is divided as follows: 
+* The [distance](https://github.com/hfawaz/aaltd18/tree/master/distances/dtw) folder contains the DTW distance in Cython instead of pure python in order to reduce the running time.  
+* The [dba.py](https://github.com/hfawaz/aaltd18/blob/master/dba.py) file contains the DBA algorithm.  
+* The [utils](https://github.com/hfawaz/aaltd18/tree/master/utils) folder contains the necessary functions to read the datasets and visualize the plots.  
+* The [knn.py](https://github.com/hfawaz/aaltd18/tree/master/knn.py) file contains the K nearest neighbor algorithm which is mainly used when computing the weights for the data augmentation technique.  
+* The [resnet.py](https://github.com/hfawaz/aaltd18/tree/master/resnet.py) file contians the keras and tesnorflow code to define the architecture and train the deep learning model.  
+* The [augment.py](https://github.com/hfawaz/aaltd18/tree/master/augment.py) file contains the method that generates the random weights (Average Selected) with a function that does the actual augmentation for a given training set of time series.  
 
 ## Prerequisites
 All python packages needed are listed in utils/pip-requirements.txt file and can be installed simply using the pip command. 
