@@ -13,7 +13,7 @@ The code is divided as follows:
 * The [dba.py](https://github.com/hfawaz/aaltd18/blob/master/dba.py) file contains the DBA algorithm.  
 * The [utils](https://github.com/hfawaz/aaltd18/tree/master/utils) folder contains the necessary functions to read the datasets and visualize the plots.  
 * The [knn.py](https://github.com/hfawaz/aaltd18/tree/master/knn.py) file contains the K nearest neighbor algorithm which is mainly used when computing the weights for the data augmentation technique.  
-* The [resnet.py](https://github.com/hfawaz/aaltd18/tree/master/resnet.py) file contians the keras and tesnorflow code to define the architecture and train the deep learning model.  
+* The [resnet.py](https://github.com/hfawaz/aaltd18/tree/master/resnet.py) file contains the keras and tesnorflow code to define the architecture and train the deep learning model.  
 * The [augment.py](https://github.com/hfawaz/aaltd18/tree/master/augment.py) file contains the method that generates the random weights (Average Selected) with a function that does the actual augmentation for a given training set of time series.  
 
 ## Prerequisites
