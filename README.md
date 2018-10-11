@@ -17,9 +17,9 @@ The code is divided as follows:
 * The [augment.py](https://github.com/hfawaz/aaltd18/tree/master/augment.py) file contains the method that generates the random weights (Average Selected) with a function that does the actual augmentation for a given training set of time series.  
 
 ## Prerequisites
-All python packages needed are listed in utils/pip-requirements.txt file and can be installed simply using the pip command. 
+All python packages needed are listed in utils/pip-requirements.txt file and can be installed simply using the pip command for python3.6. 
 
-* [Cython](http://cython.org/)  
+* [Cython](http://cython.org/) and run ```./utils/build-cython.sh``` to generate the necessary cython files. 
 * [numpy](http://www.numpy.org/)  
 * [pandas](https://pandas.pydata.org/)  
 * [sklearn](http://scikit-learn.org/stable/)  
